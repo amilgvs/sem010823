@@ -5,5 +5,5 @@
 // а=25 б=5 -> да, а=2 б=10 -> нет
 
 Console.WriteLine ("Введите два числа");
-int number1 = Convert.ToInt32(Console.ReadLine());
-int number2 = Convert.ToInt32(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
+int b = Convert.ToInt32(Console.ReadLine());
