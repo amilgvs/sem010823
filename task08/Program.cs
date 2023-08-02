@@ -1,4 +1,5 @@
 ﻿//На вход подается число N, на выходе все четные числа от 1 до N
+// ошибка в синтаксисе
 
 Console.WriteLine ("Введите число N");
 int N = Convert.ToInt32(Console.ReadLine());
