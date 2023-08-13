@@ -9,10 +9,10 @@ int b = Convert.ToInt32(Console.ReadLine());
 {
     if(a>b)
     {
-        Console.WriteLine ($"Число {a} больше {b}");
+        Console.WriteLine ($"max = {a}");
     }
     else 
     {
-        Console.WriteLine($"Число {b} больше {a}");
+        Console.WriteLine($"max = {b}");
     }
 }
