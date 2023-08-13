@@ -3,8 +3,17 @@
 Console.WriteLine ("Введите число N");
 int N = Convert.ToInt32(Console.ReadLine());
 int i = 0;
-while(i < N);
 {
-    i += 2;
-    Console.WriteLine(i);
+    while(i < N)
+    {
+        i += 2;
+        Console.WriteLine (i);
+    }
 }
+
+// {
+//     for (int i = 2; i <= N; i += 2)
+//     {
+//         Console.WriteLine (i);
+//     }
+// }
