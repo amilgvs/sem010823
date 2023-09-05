@@ -9,12 +9,14 @@ int number = Convert.ToInt32(Console.ReadLine());
 int SumDigit (int number)
 {
     int count=Convert.ToString(number).Length;
-    int temp=0;
     int res=0;
+    if (number == 0)
+    {
+        res=1;
+    }
     for (int i = 0; i < count; i++)
     {
-        temp=number-number%10;
-        res=res+(number-temp);
+        res=res+number%10;
         number=number/10;
     }
     return res;
