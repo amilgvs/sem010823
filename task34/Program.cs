@@ -41,13 +41,6 @@ int CountEven (int[] arr)
         i+=1;
     }
     return countEven;
-    
-    // for (int i=0; i < arr.Length; i++);
-    // {
-    //     int i=0;
-    //     if (arr[i] % 2 == 0) countEven++;
-	// }
-    // return countEven;
 }
 int countEven = CountEven(array);
 Console.WriteLine();
