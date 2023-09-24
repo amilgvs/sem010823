@@ -4,8 +4,8 @@
 0, 7, 8, -2, -2 -> 2
 1, -7, 567, 89, 223-> 3
 */ 
-
-int Prompt (string message);
+Console.Clear();
+int Prompt (string message)
 {
     Console.Write(message);
     string value = Console.ReadLine();
@@ -13,10 +13,10 @@ int Prompt (string message);
     return result;
 }
 
-int[] InputArray(int length);
+int[] InputArray(int length)
 {
-    int[] array = new int [length];
-    for (int i = 0; i < array.Length; i++);
+    int[] array = new int[length];
+    for (int i = 0; i < array.Length; i++)
     {
         array[i] = Prompt ($"Введите {i+1}-й элемент: ");
     }
